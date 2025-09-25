@@ -60,7 +60,7 @@ async def handle_photo(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # Load masker sesuai pilihan
     if choice == "mask_eye":
-        mask_path = "assets/mask_eye.png"
+        mask_path = "photo_2025-09-25_20-49-34.jpg"
     else:
         mask_path = "assets/mask_face.png"
 
